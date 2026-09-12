@@ -1,0 +1,69 @@
+body{
+    background: url(/photos/Vintage\ Mountain\ Sunset\ Illustration\ Background.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: none;
+}
+
+.container{
+    text-align: center;
+    
+     height: 400px;
+    width: 400px;
+    padding: 5px;
+    margin-top: 150px;
+    border-radius: 15px;
+    border: 1px solid black;
+    backdrop-filter: blur(28px);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#city{
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+
+#city::placeholder{
+    color: black;
+    font-size: 15px;
+}
+
+button{
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: /*rgb(242, 189, 84)*/ rgb(247, 182, 52);
+}
+
+button:hover{
+    background-color: rgb(246, 164, 0);
+}
+
+.result{
+    margin-top: 20px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
